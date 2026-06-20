@@ -1,0 +1,17 @@
+/assets/*.jpg
+  Cache-Control: public, max-age=2592000, immutable
+
+/assets/*.png
+  Cache-Control: public, max-age=2592000, immutable
+
+/assets/*.gif
+  Cache-Control: public, max-age=2592000, immutable
+
+/assets/*.webp
+  Cache-Control: public, max-age=2592000, immutable
+
+/assets/*.webm
+  Cache-Control: public, max-age=2592000, immutable
+
+/*.html
+  Cache-Control: no-cache, must-revalidate
